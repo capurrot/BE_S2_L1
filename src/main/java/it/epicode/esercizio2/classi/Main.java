@@ -11,9 +11,9 @@ public class Main {
         try {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Inserisci la distanza in chilometri");
-            double km = scanner.nextInt();
+            double km = scanner.nextDouble();
             System.out.println("Inserisci il consumo in litri");
-            double litri = scanner.nextInt();
+            double litri = scanner.nextDouble();
             if (litri == 0) {
                 throw new NumeroLitriException("Il consumo non può essere 0");
             }
